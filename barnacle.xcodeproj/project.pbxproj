@@ -12,6 +12,7 @@
 		ECAB8F201C4C9FF80079A17C /* barnacle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8F1E1C4C9FF80079A17C /* barnacle.xcdatamodeld */; };
 		ECAB8F221C4C9FF80079A17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAB8F211C4C9FF80079A17C /* Assets.xcassets */; };
 		ECAB8F251C4C9FF80079A17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB8F231C4C9FF80079A17C /* Main.storyboard */; };
+		ECF2D78F1C4DDA3F00E2C12A /* posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF2D78E1C4DDA3F00E2C12A /* posts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ECAB8F211C4C9FF80079A17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECAB8F241C4C9FF80079A17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECAB8F261C4C9FF80079A17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF2D78E1C4DDA3F00E2C12A /* posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = posts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				ECAB8F1A1C4C9FF80079A17C /* AppDelegate.swift */,
 				ECAB8F1C1C4C9FF80079A17C /* ViewController.swift */,
+				ECF2D78E1C4DDA3F00E2C12A /* posts.swift */,
 				ECAB8F211C4C9FF80079A17C /* Assets.xcassets */,
 				ECAB8F231C4C9FF80079A17C /* Main.storyboard */,
 				ECAB8F261C4C9FF80079A17C /* Info.plist */,
@@ -137,6 +140,7 @@
 				ECAB8F201C4C9FF80079A17C /* barnacle.xcdatamodeld in Sources */,
 				ECAB8F1D1C4C9FF80079A17C /* ViewController.swift in Sources */,
 				ECAB8F1B1C4C9FF80079A17C /* AppDelegate.swift in Sources */,
+				ECF2D78F1C4DDA3F00E2C12A /* posts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				ECAB8F2B1C4C9FF80079A17C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

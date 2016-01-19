@@ -9,7 +9,16 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    // MARK: Properties
 
+    @IBOutlet weak var postTextField: NSTextField!
+    @IBOutlet weak var doneButton: NSButton!
+    @IBOutlet weak var titleTextField: NSTextField!
+    
+    var p = posts();
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +30,25 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
+    
+    // MARK: Actions
+    
+    @IBAction func doneBtn(sender: NSButton) {
+        let content = postTextField.stringValue
+        let title = titleTextField.stringValue
+        let date = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .ShortStyle)
+        
+        var post = ["title": title, "content":content , "data":date]
+//        print(post)
+        p.addToDict(post)
+    }
+    
+//    func printTimestamp() {
+//        let timestamp = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .ShortStyle)
+//        print(timestamp)
+//    }
+    
+    
 
 
 }
