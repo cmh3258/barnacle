@@ -15,8 +15,6 @@ class ViewController: NSViewController {
     @IBOutlet weak var postTextField: NSTextField!
     @IBOutlet weak var doneButton: NSButton!
     @IBOutlet weak var titleTextField: NSTextField!
-    
-    var p = posts();
 
     
     override func viewDidLoad() {
@@ -40,7 +38,7 @@ class ViewController: NSViewController {
         
         var post = ["title": title, "content":content , "data":date]
 //        print(post)
-        p.addToDict(post)
+        currentPosts.addToDict(post)
     }
     
 //    func printTimestamp() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC036DB31C4F21A9003C810E /* ReadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC036DB21C4F21A9003C810E /* ReadController.swift */; };
 		ECAB8F1B1C4C9FF80079A17C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8F1A1C4C9FF80079A17C /* AppDelegate.swift */; };
 		ECAB8F1D1C4C9FF80079A17C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8F1C1C4C9FF80079A17C /* ViewController.swift */; };
 		ECAB8F201C4C9FF80079A17C /* barnacle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8F1E1C4C9FF80079A17C /* barnacle.xcdatamodeld */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC036DB21C4F21A9003C810E /* ReadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadController.swift; sourceTree = "<group>"; };
 		ECAB8F171C4C9FF80079A17C /* barnacle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barnacle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAB8F1A1C4C9FF80079A17C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECAB8F1C1C4C9FF80079A17C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				ECF2D78E1C4DDA3F00E2C12A /* posts.swift */,
 				ECAB8F211C4C9FF80079A17C /* Assets.xcassets */,
 				ECAB8F231C4C9FF80079A17C /* Main.storyboard */,
+				EC036DB21C4F21A9003C810E /* ReadController.swift */,
 				ECAB8F261C4C9FF80079A17C /* Info.plist */,
 				ECAB8F1E1C4C9FF80079A17C /* barnacle.xcdatamodeld */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC036DB31C4F21A9003C810E /* ReadController.swift in Sources */,
 				ECAB8F201C4C9FF80079A17C /* barnacle.xcdatamodeld in Sources */,
 				ECAB8F1D1C4C9FF80079A17C /* ViewController.swift in Sources */,
 				ECAB8F1B1C4C9FF80079A17C /* AppDelegate.swift in Sources */,

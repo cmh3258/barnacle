@@ -10,10 +10,13 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    var masterViewController: ReadController!
 
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+//        masterViewController = ReadController(nibName: "ReadController", bundle: nil)
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

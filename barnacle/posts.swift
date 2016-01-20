@@ -19,3 +19,5 @@ class posts: NSObject {
         return self.myNewDictArray
     }
 }
+
+var currentPosts = posts();
