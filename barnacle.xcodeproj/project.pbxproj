@@ -14,6 +14,7 @@
 		ECAB8F221C4C9FF80079A17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAB8F211C4C9FF80079A17C /* Assets.xcassets */; };
 		ECAB8F251C4C9FF80079A17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB8F231C4C9FF80079A17C /* Main.storyboard */; };
 		ECF2D78F1C4DDA3F00E2C12A /* posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF2D78E1C4DDA3F00E2C12A /* posts.swift */; };
+		ECF4ABFD1C5403F500BA9413 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF4ABFC1C5403F500BA9413 /* MainTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ECAB8F241C4C9FF80079A17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECAB8F261C4C9FF80079A17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECF2D78E1C4DDA3F00E2C12A /* posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = posts.swift; sourceTree = "<group>"; };
+		ECF4ABFC1C5403F500BA9413 /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ECF2D78E1C4DDA3F00E2C12A /* posts.swift */,
 				ECAB8F211C4C9FF80079A17C /* Assets.xcassets */,
 				ECAB8F231C4C9FF80079A17C /* Main.storyboard */,
+				ECF4ABFC1C5403F500BA9413 /* MainTabViewController.swift */,
 				EC036DB21C4F21A9003C810E /* ReadController.swift */,
 				ECAB8F261C4C9FF80079A17C /* Info.plist */,
 				ECAB8F1E1C4C9FF80079A17C /* barnacle.xcdatamodeld */,
@@ -145,6 +148,7 @@
 				ECAB8F1D1C4C9FF80079A17C /* ViewController.swift in Sources */,
 				ECAB8F1B1C4C9FF80079A17C /* AppDelegate.swift in Sources */,
 				ECF2D78F1C4DDA3F00E2C12A /* posts.swift in Sources */,
+				ECF4ABFD1C5403F500BA9413 /* MainTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

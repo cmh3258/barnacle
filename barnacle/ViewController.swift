@@ -15,12 +15,18 @@ class ViewController: NSViewController {
     @IBOutlet weak var postTextField: NSTextField!
     @IBOutlet weak var doneButton: NSButton!
     @IBOutlet weak var titleTextField: NSTextField!
+    
+    var toPass:String = ""
+    
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("toPass: ",toPass)
+//        self.view.layer!.backgroundColor = NSColor.blueColor().CGColor
+        
     }
 
     override var representedObject: AnyObject? {
@@ -36,7 +42,7 @@ class ViewController: NSViewController {
         let title = titleTextField.stringValue
         let date = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .ShortStyle)
         
-        var post = ["title": title, "content":content , "data":date]
+        var post = ["title": title, "content":content , "date":date]
 //        print(post)
         currentPosts.addToDict(post)
     }
